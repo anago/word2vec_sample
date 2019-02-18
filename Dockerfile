@@ -1,7 +1,7 @@
 FROM ubuntu:bionic
 WORKDIR /var/source
 RUN apt-get update && \
-  apt-get install -y python3.7 python3.7-venv python3.7-dev python3-pip \
+  apt-get install -y python3 python3-venv python3-dev python3-pip \
   mecab libmecab-dev mecab-ipadic-utf8 \
   git make curl xz-utils file sudo wget swig vim locales locales-all nkf
 

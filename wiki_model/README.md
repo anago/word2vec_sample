@@ -12,4 +12,4 @@ WikiExtractorを利用
 ### UTF-8に変換
     nkf -w --overwrite wiki_wakati.txt
 ### モデル作成
-    python3.7 wiki2model.py    
+    python3 wiki2model.py    

@@ -4,8 +4,8 @@ import numpy as np
 from datetime import datetime
 
 
-mt = MeCab.Tagger('-d /usr/lib/x86_64-linux-gnu/mecab/dic/mecab-ipadic-neologd -u ./user.dic')
-model = word2vec.Word2Vec.load("./wiki.model")
+mt = MeCab.Tagger('-d /usr/lib/x86_64-linux-gnu/mecab/dic/mecab-ipadic-neologd -u ./user_dic/user.dic')
+model = word2vec.Word2Vec.load("./wiki_model/wiki.model")
 part_of_speachs = ['名詞']#, '動詞', '形容詞']
 
 # テキストのベクトルを計算
